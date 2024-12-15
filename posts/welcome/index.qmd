@@ -1,0 +1,13 @@
+---
+title: 'My first post'
+date: '2024-12-15'
+categories: ['new']
+description: 'Just making my first post'
+execute:
+  message: false
+  warning: false
+editor_options:
+  chunk_output_type: console
+---
+
+My first blog post!

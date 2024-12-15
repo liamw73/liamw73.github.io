@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Liam Wilson"
+  site-url: https://liamw.github.io/
+  description: "This is Liam Wilson's Personal Blog"
+  repo-url: https://github.com/liamw73/liamw73.github.io
+  repo-actions: [source]
+  navbar:
+    right:
+      - text: Blog
+        href: blog.qmd
+      - text: About
+        href: index.qmd
+      - text: Archive
+        href: archive.qmd
+      - icon: github
+        href: https://github.com/liamw73
+      - icon: linkedin
+        href: https://www.linkedin.com/in/liam-wilson-9a8aa7256/
+format:
+  html:
+    theme: lux
+    css: styles.css
+
+editor: visual
+

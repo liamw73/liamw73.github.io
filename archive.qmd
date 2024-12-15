@@ -1,0 +1,8 @@
+---
+title: "Archive"
+page-layout: full
+listing:
+ contents: posts/**/*.qmd
+ fields: [date, title]
+ sort: 'date desc'
+---

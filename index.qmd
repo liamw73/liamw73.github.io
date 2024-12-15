@@ -1,0 +1,15 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/liam-wilson-9a8aa7256/
+    - icon: github
+      text: Github
+      href: https://github.com/liamw73
+---
+
+ABOUT ME
