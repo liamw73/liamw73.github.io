@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "My first post",
+    "section": "",
+    "text": "My first blog post!"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "BLOG",
+    "section": "",
+    "text": "My first post\n\n\n\n\n\n\nnew\n\n\n\nJust making my first post\n\n\n\n\n\nDec 15, 2024\n\n\nLiam Wilson\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "My first post\n\n\n\n\n\n\n\n\nDec 15, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "ABOUT ME"
+  }
+]

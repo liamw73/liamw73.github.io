@@ -1,11 +1,21 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "LIAM WILSON"
+  title: "Liam Wilson"
+  site-url: https://liamw.github.io/
+  description: "This is Liam Wilson's Personal Blog"
+  repo-url: https://github.com/liamw73/liamw73.github.io
+  repo-actions: [source]
   navbar:
     right:
-      - blog.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: About
+        href: index.qmd
+      - text: Archive
+        href: archive.qmd
       - icon: github
         href: https://github.com/liamw73
       - icon: linkedin
