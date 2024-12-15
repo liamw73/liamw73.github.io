@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "LIAM WILSON"
+  navbar:
+    right:
+      - blog.qmd
+      - icon: github
+        href: https://github.com/liamw73
+      - icon: linkedin
+        href: https://www.linkedin.com/in/liam-wilson-9a8aa7256/
+format:
+  html:
+    theme: lux
+    css: styles.css
+
+editor: visual
+
