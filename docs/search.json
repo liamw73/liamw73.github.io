@@ -2,29 +2,113 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "My first post",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
     "section": "",
-    "text": "My first blog post!"
+    "text": "This proposal utilizes real telecom customer analytics to determine the main drivers for customer churn. Multiple python programs are chained together to generate visualizations along with regression, logical, and statistical significance tests that clarify the telecom market, monthly trends, and correlation between factors that affect the bottom line. This data was used to formulate a final proposal, broken down into monthly phases, that promises to not only reduce customer churn, but also increase customer retention. This project is tailored to C-suite level executives and lays out a path to market domination.\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nfrom scipy.stats import ttest_ind\nimport statsmodels.api as sm\nimport statsmodels.formula.api as smf"
+  },
+  {
+    "objectID": "posts/welcome/index.html#key-findings",
+    "href": "posts/welcome/index.html#key-findings",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nMonthly Charges:\nHigher monthly charges increase churn likelihood (coef = 0.0296, p &lt; 0.000). Customers paying more are more likely to leave, indicating pricing dissatisfaction.\nTenure:\nLonger tenures decrease churn likelihood (coef = -0.0538, p &lt; 0.000). Retention efforts should target customers in their early months.\nAge:\nOlder customers show a slight increase in churn likelihood (coef = 0.0130, p &lt; 0.000), suggesting a need for tailored engagement strategies."
+  },
+  {
+    "objectID": "posts/welcome/index.html#model-performance",
+    "href": "posts/welcome/index.html#model-performance",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Model Performance",
+    "text": "Model Performance\nPseudo R-squared: 0.2154 (moderate fit). This indicates that the model explains about 21.5% of the variance in churn. While this suggests a moderate fit, additional predictors or interaction terms could improve explanatory power."
+  },
+  {
+    "objectID": "posts/welcome/index.html#implications",
+    "href": "posts/welcome/index.html#implications",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Implications",
+    "text": "Implications\nAddress pricing concerns, improve onboarding, and tailor services for older customers to reduce churn.\n\nX = merged_df[['MonthlyCharges', 'TenureMonths', 'Age']]\n\nX = sm.add_constant(X)\n\ny = merged_df['Churned_binary']\n\nlogit_model = sm.Logit(y, X)\nresult = logit_model.fit()\n\nprint(result.summary())\n\nOptimization terminated successfully.\n         Current function value: 0.453978\n         Iterations 7\n                           Logit Regression Results                           \n==============================================================================\nDep. Variable:         Churned_binary   No. Observations:                 7043\nModel:                          Logit   Df Residuals:                     7039\nMethod:                           MLE   Df Model:                            3\nDate:                Mon, 10 Feb 2025   Pseudo R-squ.:                  0.2154\nTime:                        18:36:34   Log-Likelihood:                -3197.4\nconverged:                       True   LL-Null:                       -4075.1\nCovariance Type:            nonrobust   LLR p-value:                     0.000\n==================================================================================\n                     coef    std err          z      P&gt;|z|      [0.025      0.975]\n----------------------------------------------------------------------------------\nconst             -2.1800      0.114    -19.168      0.000      -2.403      -1.957\nMonthlyCharges     0.0296      0.001     23.638      0.000       0.027       0.032\nTenureMonths      -0.0538      0.002    -32.104      0.000      -0.057      -0.051\nAge                0.0130      0.002      7.075      0.000       0.009       0.017\n=================================================================================="
+  },
+  {
+    "objectID": "posts/welcome/index.html#proposed-approach",
+    "href": "posts/welcome/index.html#proposed-approach",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Proposed Approach",
+    "text": "Proposed Approach\nTo mitigate churn, the strategy addresses high monthly charges, improves early retention, and tailors services for specific demographics. This aligns with the identified challenges of high churn among short-tenure, high-paying customers, and dissatisfaction among older subscribers."
+  },
+  {
+    "objectID": "posts/welcome/index.html#key-elements-of-strategy",
+    "href": "posts/welcome/index.html#key-elements-of-strategy",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Key Elements of Strategy",
+    "text": "Key Elements of Strategy\n\nPricing Optimization:\n\nIntroduce tiered pricing and loyalty rewards.\nOffer discounts or additional value for high-paying customers.\n\nEnhanced Onboarding:\n\nCreate seamless onboarding programs.\nIncentivize early tenure retention with personalized offers.\n\nTargeted Engagement:\n\nDevelop tailored services for older customers.\nAddress customer satisfaction pain points proactively.\n\nData-Driven Monitoring:\n\nAnalyze churn data to identify patterns.\nUse predictive models to target at-risk customers."
+  },
+  {
+    "objectID": "posts/welcome/index.html#expected-benefits",
+    "href": "posts/welcome/index.html#expected-benefits",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Expected Benefits",
+    "text": "Expected Benefits\n\nReduced Churn Rates: Pricing adjustments and onboarding improvements will increase customer satisfaction.\nIncreased CLV: Longer retention reduces acquisition costs and increases revenue.\nEnhanced Satisfaction: Tailored strategies for at-risk groups foster loyalty.\nProactive Insights: Data analysis supports continuous improvement."
+  },
+  {
+    "objectID": "posts/welcome/index.html#supporting-evidence",
+    "href": "posts/welcome/index.html#supporting-evidence",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Supporting Evidence",
+    "text": "Supporting Evidence\n\nMonthly Charges: Higher charges increase churn likelihood (coef = 0.0296, p &lt; 0.000). Figure 2 also supports this claim.\nTenure: Shorter tenures strongly correlate with churn (t = -31.58, p &lt; 0.000). This correlation is strengthened by figure 3.\nAge: Older customers show increased churn (coef = 0.0130, p &lt; 0.000).\nChurn Reasons: Violin plots highlight tenure-based churn patterns, guiding targeted interventions.\n\nThis data-driven strategy offers actionable steps to address churn, enhance retention, and create long-term value."
+  },
+  {
+    "objectID": "posts/welcome/index.html#proposed-actions-or-decisions",
+    "href": "posts/welcome/index.html#proposed-actions-or-decisions",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Proposed Actions or Decisions",
+    "text": "Proposed Actions or Decisions\n\nPricing Optimization:\n\nIntroduce tiered pricing models to cater to diverse customer needs.\nImplement loyalty discounts for long-tenure customers.\nRegularly monitor and adjust pricing to remain competitive.\n\nEnhanced Onboarding and Early Retention:\n\nDesign and roll out an onboarding program that includes personalized welcome messages and tutorials.\nOffer discounts or free trials for the first 6 months to reduce early churn risks.\n\nTargeted Engagement Strategies:\n\nDevelop a dedicated support program for older customers, including simplified plans and personalized assistance.\nConduct periodic customer satisfaction surveys to identify and address pain points proactively.\n\nData-Driven Monitoring:\n\nImplement a churn prediction model to identify at-risk customers.\nUse churn visualizations (e.g., tenure distribution by churn reason) to inform intervention strategies."
+  },
+  {
+    "objectID": "posts/welcome/index.html#assignment-of-responsibility",
+    "href": "posts/welcome/index.html#assignment-of-responsibility",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Assignment of Responsibility",
+    "text": "Assignment of Responsibility\n\nPricing Optimization:\n\nMarketing and Finance Teams: Collaborate to define tiered pricing and discount structures.\nExecutive Leadership: Approve pricing adjustments and allocate budgets.\n\nEnhanced Onboarding:\n\nCustomer Success Team: Develop onboarding materials and strategies.\nIT Department: Automate welcome processes and integrate retention tools.\n\nTargeted Engagement:\n\nCustomer Support Team: Provide tailored support for older customers and conduct satisfaction surveys.\nData Analytics Team: Analyze survey results and identify trends.\n\nData-Driven Monitoring:\n\nData Science Team: Build and maintain churn prediction models.\nProduct Managers: Use insights from churn analysis to prioritize feature development."
+  },
+  {
+    "objectID": "posts/welcome/index.html#implementation-timeline",
+    "href": "posts/welcome/index.html#implementation-timeline",
+    "title": "Telecom Customer Analysis, Executive Summary, and Optimization Proposal",
+    "section": "Implementation Timeline",
+    "text": "Implementation Timeline\n\nMonth 1:\n\nFinalize pricing optimization strategies.\nBegin onboarding program development.\nEstablish data science resources for churn prediction modeling.\n\nMonth 2:\n\nRoll out tiered pricing and loyalty discounts.\nLaunch the onboarding program with welcome emails and tutorials.\nBegin customer satisfaction surveys and data analysis.\n\nMonth 3:\n\nLaunch targeted engagement strategies for older customers.\nDeploy churn prediction models and monitor at-risk customers.\nReview progress and refine strategies based on initial results.\n\n\nBy taking these actions, the organization will address the root causes of churn, improve customer retention, and maximize long-term revenue potential."
+  },
+  {
+    "objectID": "posts/Amazon Inventory/index.html",
+    "href": "posts/Amazon Inventory/index.html",
+    "title": "Amazon Inventory Management System",
+    "section": "",
+    "text": "This project can perform tasks like inventory management, budget allocation, and administrative tasks all in one secure program. It is secured with limited-permission user log in as well as manager log in with admin access. Usernames and passwords are stored in a database along with user written and historical data. This proprietary program was built from the ground up in Visual Basic and utilizes macros to seamlessly update in real time based off user input.\nClick to Download Project (Microsoft Excel Macro-Enabled Worksheet)"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "BLOG",
     "section": "",
-    "text": "My first post\n\n\n\n\n\n\nnew\n\n\n\nJust making my first post\n\n\n\n\n\nDec 15, 2024\n\n\nLiam Wilson\n\n\n\n\n\n\nNo matching items"
+    "text": "KEV and CWE Database Analysis\n\n\n\n\n\n\nProjects\n\n\n\nThis project utilizes KEV and CWE score data to identify the similarities, outliers, and overall distribution of vulnerabilities and breaches across the world’s leading software providers.\n\n\n\n\n\nDec 15, 2024\n\n\nLiam Wilson\n\n\n\n\n\n\n\n\n\n\n\n\nTelecom Customer Analysis, Executive Summary, and Optimization Proposal\n\n\n\n\n\n\nProjects\n\n\n\nThis proposal utilizes real telecom customer analytics to determine the main drivers for customer churn.\n\n\n\n\n\nDec 10, 2024\n\n\nLiam Wilson\n\n\n\n\n\n\n\n\n\n\n\n\nAmazon Inventory Management System\n\n\n\n\n\n\nProjects\n\n\n\nThis project can perform tasks like inventory management, budget allocation, and administrative tasks all in one secure program.\n\n\n\n\n\nDec 11, 2023\n\n\nLiam Wilson\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "archive.html",
     "href": "archive.html",
     "title": "Archive",
     "section": "",
-    "text": "My first post\n\n\n\n\n\n\n\n\nDec 15, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "KEV and CWE Database Analysis\n\n\n\n\n\n\n\n\nDec 15, 2024\n\n\n\n\n\n\n\nTelecom Customer Analysis, Executive Summary, and Optimization Proposal\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\n\n\n\n\n\nAmazon Inventory Management System\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About",
     "section": "",
-    "text": "i am cool"
+    "text": "With a blue collar background, and a top percentile GPA I bring a unique perspective and work ethic to any situation I find myself in."
+  },
+  {
+    "objectID": "posts/KEV score/index.html",
+    "href": "posts/KEV score/index.html",
+    "title": "KEV and CWE Database Analysis",
+    "section": "",
+    "text": "This project utilizes KEV and CWE score data to identify the similarities, outliers, and overall distribution of vulnerabilities and breaches across the world’s leading software providers. The data was gleaned using API calls and web scraping, then cleaned and merged to optimize the process. Visualizations, significance tests, regression tests, and simulations were run to bring thousands of rows of data into focus. This project was built in Python and serves as a powerful insight into the security of the software we trust."
   }
 ]

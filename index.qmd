@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: profile.jpg
+image: headshot.jpg
 about:
   template: jolla
   links:
@@ -12,4 +12,4 @@ about:
       href: https://github.com/liamw73
 ---
 
-i am cool
+With a blue collar background, and a top percentile GPA I bring a unique perspective and work ethic to any situation I find myself in.

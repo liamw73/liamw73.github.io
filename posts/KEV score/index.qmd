@@ -1,0 +1,15 @@
+---
+title: 'KEV and CWE Database Analysis'
+date: '2024-12-15'
+categories: ['Projects']
+description: 'This project utilizes KEV and CWE score data to identify the similarities, outliers, and overall distribution of vulnerabilities and breaches across the world’s leading software providers.'
+execute:
+  message: false
+  warning: false
+editor_options:
+  chunk_output_type: console
+---
+
+This project utilizes KEV and CWE score data to identify the similarities, outliers, and overall distribution of vulnerabilities and breaches across the world’s leading software providers. The data was gleaned using API calls and web scraping, then cleaned and merged to optimize the process. Visualizations, significance tests, regression tests, and simulations were run to bring thousands of rows of data into focus. This project was built in Python and serves as a powerful insight into the security of the software we trust.
+
+{{< video video.mp4 >}}

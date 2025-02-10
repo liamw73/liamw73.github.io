@@ -2,13 +2,17 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/welcome/index.html"
+      "/posts/KEV score/index.html",
+      "/posts/welcome/index.html",
+      "/posts/Amazon Inventory/index.html"
     ]
   },
   {
     "listing": "/archive.html",
     "items": [
-      "/posts/welcome/index.html"
+      "/posts/KEV score/index.html",
+      "/posts/welcome/index.html",
+      "/posts/Amazon Inventory/index.html"
     ]
   }
 ]
