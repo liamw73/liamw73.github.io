@@ -3,7 +3,7 @@
     "listing": "/blog.html",
     "items": [
       "/posts/KEV score/index.html",
-      "/posts/welcome/index.html",
+      "/posts/Telecom Churn/index.html",
       "/posts/Amazon Inventory/index.html"
     ]
   },
@@ -11,7 +11,7 @@
     "listing": "/archive.html",
     "items": [
       "/posts/KEV score/index.html",
-      "/posts/welcome/index.html",
+      "/posts/Telecom Churn/index.html",
       "/posts/Amazon Inventory/index.html"
     ]
   }
