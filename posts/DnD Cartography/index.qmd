@@ -1,0 +1,31 @@
+---
+title: 'Fantasy Map for Tabletop Games'
+date: '2025-04-12'
+categories: ['Passion', 'Projects']
+description: 'This map was created with NO generative AI, using Photoshop. I entered this project with almost zero graphic design experience, and after 120+ hours of Youtube and troubleshooting, it has ignited my passion for digital art and fantasy worldbuilding'
+execute:
+  message: false
+  warning: false
+editor_options:
+  chunk_output_type: console
+---
+
+# When GenAI can't deliver, you need a little human innovation
+
+When I was elected to be the DM for a new Dungeons and Dragons campaign, I decided to aid in the immersion of my players and create a novel landscape for them to explore.
+
+My party used what I coined the 'rice n dice' method, where rice and dice are strewn across a canvas to randomly generate a landmass; with different dice representing icons like volcanoes, caves, castles, towns, etc. I initially turned to GenAI to turn this rudimentary sketch to life. However I quickly realized the quality I was looking for far exceeded AI's capabilities. I decided to sign up for Photoshop and begin the process of exploring this newfound UI.
+
+Many late nights were spent watching Youtube tutorials and reading artist forums to properly convey what my imagination saw so vividly onto the digital canvas. Dozens of brushes were created, jpegs colormatched, and clone stamp tools stamped. Eventually, through the doubtful feeling of looking at an incomplete canvas, the map began to take shape. The lore and design direction began to guide itself, and before I knew it, I was looking at a map that invokes curiosity and exploration.
+
+This continent is teeming with mysteries to uncover, factions to discover, and lore like no other. The Elves, harboring in the snowy Northwest, feuding with the Mountainous and magical druids to the East. The Fairies of the forest attempting to erect a portal to the Divine Plateau. The Dwarves, driven underground as their once monumental city was lost to the ever rising swamp. All of this is illustrated within this map. Every shadow was hand-drawn, every building placed with attention to scale and geography, the map even has a fully connected and logical system of rivers and lakes. This was done in order to convey a portion of the depth of this imaginary world.
+
+![Rice n dice progress photo](rice-n-dice-progress.jpg){fig-align="center"}
+
+![Rice n dice sketch](rice-n-dice-sketch.jpg){fig-align="center"}
+
+![Flattened version of the map, this file is 1/20th of the size of the full PSD file, so the resolution has taken a hit. This map is meant to be zoomed in and explored in order to fully appreciate the intricate details that unravel the mysteries. I am happy to provide the complete, unflattened version on request.](flattened%20map.jpg){fig-align="center"}
+
+There is still much to be done. I would like to add a network of roads, names of larger settlements, environmental effects, and much more, but Photoshop is expensive.
+
+This map was created while I was in school, my personal hobbies were set aside while I strived to make headway on this project. I believe this a good representation of the tenacity and determination I approach any task with.

@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/DnD Cartography/index.html",
       "/posts/KEV score/index.html",
       "/posts/Telecom Churn/index.html",
       "/posts/Amazon Inventory/index.html"
@@ -10,6 +11,7 @@
   {
     "listing": "/archive.html",
     "items": [
+      "/posts/DnD Cartography/index.html",
       "/posts/KEV score/index.html",
       "/posts/Telecom Churn/index.html",
       "/posts/Amazon Inventory/index.html"
