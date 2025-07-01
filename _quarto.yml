@@ -3,6 +3,14 @@ project:
   output-dir: docs
 
 website:
+  cookie-consent:
+    type: express
+    style: simple
+    palette: dark
+  google-analytics:
+    tracking-id: "G-Z4HPN387M4"
+    anonymize-ip: true
+    storage: cookies
   title: "Liam Wilson"
   site-url: https://liamw73.github.io/
   description: "This is Liam Wilson's Personal Blog"
